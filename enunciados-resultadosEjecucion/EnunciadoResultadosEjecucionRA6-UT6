@@ -1,0 +1,57 @@
+Completa la clase RepasoUT6
+
+************************************************************
+
+
+ ----- mostrarMediaSemanal -----
+
+BILBAO	[15.1, 17.4, 15.2, 13.0, 14.0, 14.8, 15.2]
+Media: 14,96
+DONOSTI	[18.0, 16.0, 17.0, 17.0, 16.0, 16.0, 19.0]
+Media: 17,00
+HUESCA	[13.0, 15.0, 11.0, 12.0, 15.0, 14.0, 12.8]
+Media: 13,26
+MADRID	[21.0, 21.0, 17.0, 18.0, 19.0, 20.0, 21.0]
+Media: 19,57
+PAMPLONA	[15.2, 17.4, 15.2, 13.0, 14.0, 14.8, 15.1]
+Media: 14,96
+TUDELA	[19.0, 21.0, 19.0, 17.0, 19.0, 18.0, 22.0]
+Media: 19,29
+VITORIA	[15.0, 13.0, 12.0, 11.0, 14.0, 15.0, 12.8]
+Media: 13,26
+ZARAGOZA	[18.0, 19.0, 21.0, 17.0, 19.0, 19.0, 22.0]
+Media: 19,29
+
+ ----- borrar ----- 
+
+Borrando de madrid las temperaturas inferiores a 20.0
+Borradas3
+BILBAO	[15.1, 17.4, 15.2, 13.0, 14.0, 14.8, 15.2]
+Media: 14,96
+DONOSTI	[18.0, 16.0, 17.0, 17.0, 16.0, 16.0, 19.0]
+Media: 17,00
+HUESCA	[13.0, 15.0, 11.0, 12.0, 15.0, 14.0, 12.8]
+Media: 13,26
+MADRID	[21.0, 21.0, 20.0, 21.0]
+Media: 20,75
+PAMPLONA	[15.2, 17.4, 15.2, 13.0, 14.0, 14.8, 15.1]
+Media: 14,96
+TUDELA	[19.0, 21.0, 19.0, 17.0, 19.0, 18.0, 22.0]
+Media: 19,29
+VITORIA	[15.0, 13.0, 12.0, 11.0, 14.0, 15.0, 12.8]
+Media: 13,26
+ZARAGOZA	[18.0, 19.0, 21.0, 17.0, 19.0, 19.0, 22.0]
+Media: 19,29
+
+ ----- mayorTemperaturaViernes ----- 
+
+Mayor temperatura en viernes fue en MADRID
+ 
+----- mismaTemperaturaMedia ----- 
+
+13,26:[HUESCA, VITORIA]
+14,96:[PAMPLONA]
+14,96:[BILBAO]
+17,00:[DONOSTI]
+19,29:[TUDELA, ZARAGOZA]
+20,75:[MADRID]

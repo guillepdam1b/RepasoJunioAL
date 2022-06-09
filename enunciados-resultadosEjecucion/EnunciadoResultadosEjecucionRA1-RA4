@@ -1,0 +1,63 @@
+Completa la clase Numero
+
+--------------------------------------------------
+
+Completa la clase Calculadora
+
+--------------------------------------------------
+
+Completa la clase AppCalculadora
+
+****************************************************************************
+
+Ejecución
+
+Dame número: 4
+Dame número: -7
+Error, Dame número: -23
+Error, Dame número: 17
+Dame número: 12
+Dame número: 128
+Dame número: 33
+Dame número: 0
+Estadística final
+----------------------
+Nº total del nºs introducidos: 5
+Total impares: 2
+El impar máximo ha sido: 33
+Cantidad de nºs que acaban en 7: 1
+Potencias de 2: 2
+
+****************************************************************************
+
+Dame número: 12
+Dame número: 14
+Dame número: 16
+Dame número: 32
+Dame número: 1
+Dame número: 4
+Dame número: 0
+Estadística final
+----------------------
+Nº total del nºs introducidos: 6
+Total impares: 1
+El impar máximo ha sido: 1
+Cantidad de nºs que acaban en 7: 0
+Potencias de 2: 4
+
+
+
+****************************************************************************
+
+Dame número: 2
+Dame número: 4
+Dame número: 8
+Dame número: 12
+Dame número: 6
+Dame número: 0
+Estadística final
+----------------------
+Nº total del nºs introducidos: 5
+Total impares: 0
+Cantidad de nºs que acaban en 7: 0
+Potencias de 2: 3

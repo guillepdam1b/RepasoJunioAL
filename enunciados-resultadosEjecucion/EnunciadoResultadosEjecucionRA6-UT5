@@ -1,0 +1,148 @@
+Completa la clase RepasoUT5
+
+************************************************************
+
+
+
+ ----- inicializarEnRango -----
+[11, 11, 8, 14, 11, 13, 7, 14, 13, 14]
+ ----- sumarCifras ----- 
+[2034, 12, 223, 5432, 9999]
+[9, 3, 7, 14, 36]
+ ----- cuadrados ----- 
+[7, 6, 9, 3, 4]
+[36, 81, 9, 16, 49]
+ ----- sumaMaxima ----- 
+Fila de suma máxima: 1
+ ----- strToArray2D ----- 
+Cadena prueba a array2D: 
+[p, p, p, p, p, p]
+[r, r, r, r, r, r]
+[u, u, u, u, u, u]
+[e, e, e, e, e, e]
+[b, b, b, b, b, b]
+[a, a, a, a, a, a]
+ ----- obtenerSubarray ----- 
+Antes de tranformar el array2D
+ 
+[pez, martillo, CARAmelo, casa, zapato]
+[banco, Boa, zapatilla, la, bolso]
+[cine, de, ayuntamiento, aULA, estudiante]
+[ordenador, DISCO, usb, campanario, y]
+[arteria, reloj, vestido, OLA, DEDIcatorIA]
+
+Después de tranformar el array2D desde columna 2 hasta columna 4
+ 
+[cARAMELo, cASa, zAPATo]
+[zAPATILLa, la, bOLSo]
+[aYUNTAMIENTo, aULa, eSTUDIANTe]
+[uSb, cAMPANARIo, y]
+[vESTIDo, oLa, dEDICATORIa]
+
+Después de tranformar el array2D desde columna 0 hasta columna 2
+ 
+[pEz, mARTILLo, cARAMELo]
+[bANCo, bOa, zAPATILLa]
+[cINe, de, aYUNTAMIENTo]
+[oRDENADOr, dISCo, uSb]
+[aRTERIa, rELOj, vESTIDo]
+
+
+
+
+*****************************************************************************
+
+Completa las clases Libro y Biblioteca
+
+
+RESULTADOS EJECUCIÓN
+
+Situación inicial de la biblioteca
+--------------------------------------
+Biblioteca del IES M. Ana Sanz
+
+Titulo: ALICIA EN EL PAÍS DE LAS MARAVILLAS
+Autor: CARROLL, LEWIS
+Género: JUVENIL	Nº ejemplares: 3
+
+Titulo: EL TIEMPO QUE NOS UNE
+Autor: PALOMAS, ALEJANDRO
+Género: NOVELA	Nº ejemplares: 5
+
+Titulo: UNA MADRE
+Autor: PALOMAS, ALEJANDRO
+Género: NOVELA	Nº ejemplares: 1
+
+Titulo: INSTRUMENTAL
+Autor: RHODES, JAMES
+Género: BIOGRAFIA	Nº ejemplares: 1
+
+Titulo: HARRY POTTER Y LA PIEDRA FILOSOFAL
+Autor: ROWLING, J. K.
+Género: JUVENIL	Nº ejemplares: 7
+
+Titulo: HARRY POTTER Y EL LEGADO MALDITO
+Autor: ROWLING, J. K.
+Género: JUVENIL	Nº ejemplares: 6
+
+Titulo: BORN TO RUN
+Autor: SPRINGSTEEN, BRUCE
+Género: BIOGRAFIA	Nº ejemplares: 3
+
+Titulo: LA CIUDAD Y LOS PERROS
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 4
+
+Titulo: LA TÍA JULIA Y EL ESCRIBIDOR
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 2
+
+Titulo: LA FIESTA DEL CHIVO
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 6
+
+---------------------------
+T?tulos ordenados que contienen la cadena "poTTer"
+[HARRY POTTER Y EL LEGADO MALDITO, HARRY POTTER Y LA PIEDRA FILOSOFAL]
+---------------------------
+
+Ejemplares en la biblioteca del autor "Vargas Llosa, Mario": 12
+
+---------------------------
+
+Después de borrar los títulos del género BIOGRAFIA
+Biblioteca del IES M. Ana Sanz
+
+Titulo: ALICIA EN EL PAÍS DE LAS MARAVILLAS
+Autor: CARROLL, LEWIS
+Género: JUVENIL	Nº ejemplares: 3
+
+Titulo: EL TIEMPO QUE NOS UNE
+Autor: PALOMAS, ALEJANDRO
+Género: NOVELA	Nº ejemplares: 5
+
+Titulo: UNA MADRE
+Autor: PALOMAS, ALEJANDRO
+Género: NOVELA	Nº ejemplares: 1
+
+Titulo: HARRY POTTER Y LA PIEDRA FILOSOFAL
+Autor: ROWLING, J. K.
+Género: JUVENIL	Nº ejemplares: 7
+
+Titulo: HARRY POTTER Y EL LEGADO MALDITO
+Autor: ROWLING, J. K.
+Género: JUVENIL	Nº ejemplares: 6
+
+Titulo: LA CIUDAD Y LOS PERROS
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 4
+
+Titulo: LA TÍA JULIA Y EL ESCRIBIDOR
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 2
+
+Titulo: LA FIESTA DEL CHIVO
+Autor: VARGAS LLOSA, MARIO
+Género: NOVELA	Nº ejemplares: 6
+
+

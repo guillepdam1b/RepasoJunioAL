@@ -1,0 +1,227 @@
+ Completa las clases Empleado, Fijo, Temporal y Empresa
+ 
+ Testea todo con la clase TestEmpresa
+
+
+ *****************************************************************************
+
+ RESULTADOS EJECUCIÓN
+
+ Empleados ordenados por DNI
+ Tipo empleado: Fijo
+ DNI: 1215
+ Nombre completo: SANZ, FELIPE
+ Nómina: 1691,00€
+ Sueldo base: 1900,00€
+ Retención: 11.0%
+ Cantidad retenida:  209,00€
+
+ Tipo empleado: Fijo
+ DNI: 2222
+ Nombre completo: RUBIALES, PEPE
+ Nómina: 1940,00€
+ Sueldo base: 2000,00€
+ Retención: 3.0%
+ Cantidad retenida:   60,00€
+
+ Tipo empleado: Fijo
+ DNI: 2424
+ Nombre completo: COLLADO, BERTA
+ Nómina: 1940,00€
+ Sueldo base: 2000,00€
+ Retención: 3.0%
+ Cantidad retenida:   60,00€
+
+ Tipo empleado: Temporal
+ DNI: 3333
+ Nombre completo: MORENO, ANA
+ Nómina:  629,00€
+ Sueldo hora:   17,00€
+ Horas trabajadas: 37
+
+ Tipo empleado: Temporal
+ DNI: 5555
+ Nombre completo: AIZPURU, ELENA
+ Nómina:  432,00€
+ Sueldo hora:   24,00€
+ Horas trabajadas: 18
+
+ Tipo empleado: Temporal
+ DNI: 6267
+ Nombre completo: ZUBIZARRETA, LUIS
+ Nómina:  152,00€
+ Sueldo hora:    8,00€
+ Horas trabajadas: 19
+
+ Tipo empleado: Temporal
+ DNI: 6666
+ Nombre completo: MORENO, ALBERTO
+ Nómina:  870,00€
+ Sueldo hora:   29,00€
+ Horas trabajadas: 30
+
+ Tipo empleado: Temporal
+ DNI: 7777
+ Nombre completo: MORENO, AITOR
+ Nómina:  704,00€
+ Sueldo hora:   32,00€
+ Horas trabajadas: 22
+
+ Tipo empleado: Fijo
+ DNI: 8282
+ Nombre completo: ROMO, RAQUEL
+ Nómina: 1435,20€
+ Sueldo base: 1560,00€
+ Retención: 8.0%
+ Cantidad retenida:  124,80€
+
+ Tipo empleado: Fijo
+ DNI: 8888
+ Nombre completo: ALKAIN, JUAN
+ Nómina: 1598,00€
+ Sueldo base: 1700,00€
+ Retención: 6.0%
+ Cantidad retenida:  102,00€
+
+ Tipo empleado: Temporal
+ DNI: 9876
+ Nombre completo: MORENO, ELISA
+ Nómina:  189,00€
+ Sueldo hora:    9,00€
+ Horas trabajadas: 21
+
+ -----------------------------------
+
+ Empleados ordenados de < a > nÃ³mina
+ Tipo empleado: Temporal
+ DNI: 6267
+ Nombre completo: ZUBIZARRETA, LUIS
+ Nómina:  152,00€
+ Sueldo hora:    8,00€
+ Horas trabajadas: 19
+
+ Tipo empleado: Temporal
+ DNI: 9876
+ Nombre completo: MORENO, ELISA
+ Nómina:  189,00€
+ Sueldo hora:    9,00€
+ Horas trabajadas: 21
+
+ Tipo empleado: Temporal
+ DNI: 5555
+ Nombre completo: AIZPURU, ELENA
+ Nómina:  432,00€
+ Sueldo hora:   24,00€
+ Horas trabajadas: 18
+
+ Tipo empleado: Temporal
+ DNI: 3333
+ Nombre completo: MORENO, ANA
+ Nómina:  629,00€
+ Sueldo hora:   17,00€
+ Horas trabajadas: 37
+
+ Tipo empleado: Temporal
+ DNI: 7777
+ Nombre completo: MORENO, AITOR
+ Nómina:  704,00€
+ Sueldo hora:   32,00€
+ Horas trabajadas: 22
+
+ Tipo empleado: Temporal
+ DNI: 6666
+ Nombre completo: MORENO, ALBERTO
+ Nómina:  870,00€
+ Sueldo hora:   29,00€
+ Horas trabajadas: 30
+
+ Tipo empleado: Fijo
+ DNI: 8282
+ Nombre completo: ROMO, RAQUEL
+ Nómina: 1435,20€
+ Sueldo base: 1560,00€
+ Retención: 8.0%
+ Cantidad retenida:  124,80€
+
+ Tipo empleado: Fijo
+ DNI: 8888
+ Nombre completo: ALKAIN, JUAN
+ Nómina: 1598,00€
+ Sueldo base: 1700,00€
+ Retención: 6.0%
+ Cantidad retenida:  102,00€
+
+ Tipo empleado: Fijo
+ DNI: 1215
+ Nombre completo: SANZ, FELIPE
+ Nómina: 1691,00€
+ Sueldo base: 1900,00€
+ Retención: 11.0%
+ Cantidad retenida:  209,00€
+
+ Tipo empleado: Fijo
+ DNI: 2222
+ Nombre completo: RUBIALES, PEPE
+ Nómina: 1940,00€
+ Sueldo base: 2000,00€
+ Retención: 3.0%
+ Cantidad retenida:   60,00€
+
+ Tipo empleado: Fijo
+ DNI: 2424
+ Nombre completo: COLLADO, BERTA
+ Nómina: 1940,00€
+ Sueldo base: 2000,00€
+ Retención: 3.0%
+ Cantidad retenida:   60,00€
+
+ -----------------------------------
+
+ A pagar por empleados fijos:  8604,20â‚¬
+ -----------------------------------
+
+ Empleados temporales que han trabajado mÃ¡s de 10 horas ordenados por apellido / nombre
+
+ Tipo empleado: Temporal
+ DNI: 5555
+ Nombre completo: AIZPURU, ELENA
+ Nómina:  432,00€
+ Sueldo hora:   24,00€
+ Horas trabajadas: 18
+
+ Tipo empleado: Temporal
+ DNI: 7777
+ Nombre completo: MORENO, AITOR
+ Nómina:  704,00€
+ Sueldo hora:   32,00€
+ Horas trabajadas: 22
+
+ Tipo empleado: Temporal
+ DNI: 6666
+ Nombre completo: MORENO, ALBERTO
+ Nómina:  870,00€
+ Sueldo hora:   29,00€
+ Horas trabajadas: 30
+
+ Tipo empleado: Temporal
+ DNI: 3333
+ Nombre completo: MORENO, ANA
+ Nómina:  629,00€
+ Sueldo hora:   17,00€
+ Horas trabajadas: 37
+
+ Tipo empleado: Temporal
+ DNI: 9876
+ Nombre completo: MORENO, ELISA
+ Nómina:  189,00€
+ Sueldo hora:    9,00€
+ Horas trabajadas: 21
+
+ Tipo empleado: Temporal
+ DNI: 6267
+ Nombre completo: ZUBIZARRETA, LUIS
+ Nómina:  152,00€
+ Sueldo hora:    8,00€
+ Horas trabajadas: 19
+ 
+ 
