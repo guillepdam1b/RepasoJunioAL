@@ -142,16 +142,21 @@ public class  RepasoUT5 {
 	 *  
 	 */
 	public String tranformar(String cadena) {
-		cadena.toUpperCase().trim();
+		String cadena2 = "";
 		if (cadena.length()>=3){
-			for (int i = 0; i < cadena.length(); i++) {
-				if (i==0 || i==cadena.length()-1){
-					String.valueOf(cadena.charAt(i)).toLowerCase();
+			cadena=cadena.toUpperCase();
+			cadena2+=cadena.toLowerCase().charAt(0);
+			for (int i = 1; i < cadena.length(); i++) {
+				if (i==cadena.length()-1){
+					cadena2+=cadena.toLowerCase().charAt(i);
+				}else {
+					cadena2+=cadena.charAt(i);
 				}
 			}
+			return cadena2;
+		}else {
+			return cadena;
 		}
-		return cadena;
-
 	}
 
 	/**
@@ -168,13 +173,19 @@ public class  RepasoUT5 {
 	*  por una nueva haciendo uso del método transformar()
 	*/
 	public String[][] obtenerSubarray(String[][] array2D, int c1, int c2) {
-
-		return null;
+		String[][] retorno = new String[array2D.length][array2D[0].length];
+		for (int i = 0; i < array2D.length; i++) {
+			for (int j = 0; j < array2D[i].length; j++) {
+				if (j==c1 || j==c2){
+					retorno[i][j]=tranformar(array2D[i][j]);
+				}else {
+					retorno[i][j]=array2D[i][j];
+				}
+			}
+		}
+		return retorno;
 
 	}
-
-
-
 
 	public static void main(String[] args) {
 
