@@ -142,10 +142,10 @@ public class  RepasoUT5 {
 	 *  
 	 */
 	public String tranformar(String cadena) {
-		cadena.toUpperCase();
+		cadena.toUpperCase().trim();
 		if (cadena.length()>=3){
 			for (int i = 0; i < cadena.length(); i++) {
-				if (i==1 || i < (cadena.length())-1){
+				if (i==0 || i==cadena.length()-1){
 					String.valueOf(cadena.charAt(i)).toLowerCase();
 				}
 			}

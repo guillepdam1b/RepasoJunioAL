@@ -123,7 +123,18 @@ public class RepasoUT6 {
 	public TreeMap<Double, TreeSet<String>> mismaTemperaturaMedia() {
 		TreeMap<Double, TreeSet<String>> retorno = new TreeMap<>();
 		TreeSet<String> ciudadesConTemp = new TreeSet<>();
-		
+		List<Double> temps = new ArrayList<>();
+		for (String s : ciudades.keySet()) {
+			temps.add(mediaDe(s));
+		}
+		for (int i = 0; i < temps.size(); i++) {
+			for (String s : ciudades.keySet()) {
+				if (mediaDe(s)==temps.get(i)){
+					ciudadesConTemp.add(s);
+				}
+			}
+			retorno.put(temps.get(i),ciudadesConTemp);
+		}
 		return retorno;
 
 	}
